@@ -1,0 +1,16 @@
+{
+  "ExtendedData": {
+    "inputs": [
+      "http://localhost:61118/DemoService.svc?wsdl"
+    ],
+    "collectionTypes": [
+      "System.Array",
+      "System.Collections.Generic.Dictionary`2"
+    ],
+    "namespaceMappings": [
+      "*, DemoServiceReference"
+    ],
+    "targetFramework": "net8.0",
+    "typeReuseMode": "None"
+  }
+}

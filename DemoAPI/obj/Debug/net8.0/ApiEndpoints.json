@@ -1,0 +1,96 @@
+[
+  {
+    "ContainingType": "DemoAPI.Controllers.PersonController",
+    "Method": "DeletePerson",
+    "RelativePath": "api/Person/DeletePerson/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DemoAPI.Controllers.PersonController",
+    "Method": "GetFirstNames",
+    "RelativePath": "api/Person/GetFirstNames",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DemoAPI.Controllers.PersonController",
+    "Method": "GetNamesFromWcfService",
+    "RelativePath": "api/Person/GetNamesFromWcfService",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DemoAPI.Controllers.PersonController",
+    "Method": "GetPersonById",
+    "RelativePath": "api/Person/GetPersonById/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DemoAPI.Controllers.PersonController",
+    "Method": "GetPersons",
+    "RelativePath": "api/Person/GetPersons",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DemoAPI.Controllers.PersonController",
+    "Method": "PostPerson",
+    "RelativePath": "api/Person/PostPerson",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "person",
+        "Type": "DataAccess.Models.PersonModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DemoAPI.Controllers.PersonController",
+    "Method": "UpdatePerson",
+    "RelativePath": "api/Person/UpdatePerson",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "updatedPerson",
+        "Type": "DataAccess.Models.PersonModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

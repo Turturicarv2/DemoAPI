@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Path": "DemoAPI\\DemoAPI.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "WcfService\\WcfService.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

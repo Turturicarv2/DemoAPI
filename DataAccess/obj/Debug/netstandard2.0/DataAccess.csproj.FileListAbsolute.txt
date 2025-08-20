@@ -1,0 +1,5 @@
+D:\danielp\Projects\DemoAPI\DataAccess\obj\Debug\netstandard2.0\DataAccess.csproj.AssemblyReference.cache
+D:\danielp\Projects\DemoAPI\DataAccess\obj\Debug\netstandard2.0\DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+D:\danielp\Projects\DemoAPI\DataAccess\obj\Debug\netstandard2.0\DataAccess.AssemblyInfoInputs.cache
+D:\danielp\Projects\DemoAPI\DataAccess\obj\Debug\netstandard2.0\DataAccess.AssemblyInfo.cs
+D:\danielp\Projects\DemoAPI\DataAccess\obj\Debug\netstandard2.0\DataAccess.csproj.CoreCompileInputs.cache

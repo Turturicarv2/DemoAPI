@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>DemoAPI</name>
+    </assembly>
+    <members>
+        <member name="T:DemoAPI.Controllers.PersonController">
+            <summary>
+            Basic Controller for People
+            </summary>
+        </member>
+        <member name="M:DemoAPI.Controllers.PersonController.GetPersons">
+            <summary>
+            Get All Persons
+            </summary>
+            <returns>a list of persons</returns>
+        </member>
+        <member name="M:DemoAPI.Controllers.PersonController.GetPersonById(System.Int32)">
+            <summary>
+            Get a specific person
+            </summary>
+            <param name="id">unique identifier</param>
+            <returns>person that matches the unique identifier (id)</returns>
+        </member>
+        <member name="M:DemoAPI.Controllers.PersonController.GetFirstNames">
+            <summary>
+            Get all people's first names
+            </summary>
+            <returns>list of strings</returns>
+        </member>
+        <member name="M:DemoAPI.Controllers.PersonController.PostPerson(DataAccess.Models.PersonModel)">
+            <summary>
+            Add a person to the list of persons
+            </summary>
+            <param name="person">person info</param>
+        </member>
+        <member name="M:DemoAPI.Controllers.PersonController.UpdatePerson(DataAccess.Models.PersonModel)">
+            <summary>
+            Update a person from the list of persons
+            </summary>
+            <param name="updatedPerson">person's updated info</param>
+        </member>
+        <member name="M:DemoAPI.Controllers.PersonController.DeletePerson(System.Int32)">
+            <summary>
+            Delete a person from the list of people
+            </summary>
+            <param name="id">unique identifier</param>
+        </member>
+    </members>
+</doc>
