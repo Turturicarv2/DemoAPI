@@ -7,11 +7,11 @@
       "RelativeMoniker": "D:0:0:{882D6F59-662E-43BA-A1C8-2EFBE0D9D627}|DemoAPI\\DemoAPI.csproj|solutionrelative:demoapi\\controllers\\personcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1CB04B38-ECAF-4A0C-9C81-84773156B760}|WcfService\\WcfService.csproj|d:\\danielp\\projects\\demoapi\\wcfservice\\idemoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1CB04B38-ECAF-4A0C-9C81-84773156B760}|WcfService\\WcfService.csproj|D:\\danielp\\Projects\\DemoAPI\\wcfservice\\idemoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1CB04B38-ECAF-4A0C-9C81-84773156B760}|WcfService\\WcfService.csproj|solutionrelative:wcfservice\\idemoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1CB04B38-ECAF-4A0C-9C81-84773156B760}|WcfService\\WcfService.csproj|d:\\danielp\\projects\\demoapi\\wcfservice\\demoservice.svc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1CB04B38-ECAF-4A0C-9C81-84773156B760}|WcfService\\WcfService.csproj|D:\\danielp\\Projects\\DemoAPI\\wcfservice\\demoservice.svc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1CB04B38-ECAF-4A0C-9C81-84773156B760}|WcfService\\WcfService.csproj|solutionrelative:wcfservice\\demoservice.svc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -22,8 +22,12 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 2,
@@ -34,8 +38,7 @@
               "RelativeToolTip": "WcfService\\DemoService.svc.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-19T06:34:31.068Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-19T06:34:31.068Z"
             },
             {
               "$type": "Document",
@@ -47,8 +50,7 @@
               "RelativeToolTip": "WcfService\\IDemoService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-19T06:34:23.325Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-19T06:34:23.325Z"
             },
             {
               "$type": "Document",
@@ -58,7 +60,7 @@
               "RelativeDocumentMoniker": "DemoAPI\\Controllers\\PersonController.cs",
               "ToolTip": "D:\\danielp\\Projects\\DemoAPI\\DemoAPI\\Controllers\\PersonController.cs",
               "RelativeToolTip": "DemoAPI\\Controllers\\PersonController.cs",
-              "ViewState": "AgIAAF4AAAAAAAAAAAA/wAIAAAAKAAAAAAAAAA==",
+              "ViewState": "AgIAAFIAAAAAAAAAAAAkwF0AAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-19T06:31:38.491Z",
               "EditorCaption": ""
