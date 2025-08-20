@@ -1,21 +1,22 @@
-﻿using DemoAPI.Services.Exceptions;
+﻿using DataAccess.UnitOfWork;
+using DemoAPI.Services.Exceptions;
 
 namespace DemoAPI.Services;
 
 public class PersonService : IPersonService
 {
-    private readonly IPersonData _data;
+    private readonly IUnitOfWork _uow;
 
-    public PersonService(IPersonData data)
+    public PersonService(IUnitOfWork unitOfWork)
     {
-        _data = data;
+        _uow = unitOfWork;
     }
 
     public async Task<IEnumerable<PersonModel>> GetAllPersonsAsync()
     {
         try
         {
-            return await _data.GetPersons();
+            return await _uow.Persons.GetPersons();
         }
         catch (Exception ex)
         {
@@ -27,7 +28,7 @@ public class PersonService : IPersonService
     {
         try
         {
-            return await _data.GetPerson(id);
+            return await _uow.Persons.GetPerson(id);
         }
         catch (Exception ex)
         {
@@ -39,7 +40,7 @@ public class PersonService : IPersonService
     {
         try
         {
-            return await _data.GetFirstNames();
+            return await _uow.Persons.GetFirstNames();
         }
         catch (Exception ex)
         {
@@ -50,7 +51,7 @@ public class PersonService : IPersonService
     {
         try
         {
-            await _data.InsertPerson(firstName, lastName);
+            await _uow.Persons.InsertPerson(firstName, lastName);
         }
         catch (Exception ex)
         {
@@ -61,7 +62,7 @@ public class PersonService : IPersonService
     {
         try
         {
-            await _data.UpdatePerson(person);
+            await _uow.Persons.UpdatePerson(person);
         }
         catch (Exception ex)
         {
@@ -72,7 +73,7 @@ public class PersonService : IPersonService
     {
         try
         {
-            await _data.DeletePerson(id);
+            await _uow.Persons.DeletePerson(id);
         }
         catch (Exception ex)
         {

@@ -149,3 +149,4 @@ D:\danielp\Projects\DemoAPI\DemoAPI\bin\Debug\net8.0\tr\System.ServiceModel.NetT
 D:\danielp\Projects\DemoAPI\DemoAPI\bin\Debug\net8.0\zh-Hans\System.ServiceModel.NetTcp.resources.dll
 D:\danielp\Projects\DemoAPI\DemoAPI\bin\Debug\net8.0\zh-Hant\System.ServiceModel.NetTcp.resources.dll
 D:\danielp\Projects\DemoAPI\DemoAPI\bin\Debug\net8.0\Connected Services\DemoServiceReference\ConnectedService.json
+D:\danielp\Projects\DemoAPI\DemoAPI\obj\Debug\net8.0\DemoAPI.sourcelink.json
