@@ -1,4 +1,6 @@
 using DataAccess.DbAccess;
+using DataAccess.UnitOfWork;
+using DemoAPI.Database;
 using DemoAPI.Services;
 using DemoAPI.Validators;
 using FluentValidation;
@@ -8,13 +10,19 @@ using System.Reflection;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
-
 builder.Services.AddControllers();
+
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
+
+// injecting dependencies
+builder.Services.AddSingleton<DatabaseInitializer>();
+builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
 builder.Services.AddSingleton<ISqlDataAccess, SqlDataAccess>();
 builder.Services.AddSingleton<IPersonData, PersonData>();
-builder.Services.AddSingleton<IPersonService, PersonService>();
+builder.Services.AddScoped<IPersonService, PersonService>();
+
+// Fluent Validation
 builder.Services.AddValidatorsFromAssemblyContaining<PersonValidator>();
 builder.Services.AddFluentValidationAutoValidation();
 
@@ -44,5 +52,8 @@ if (app.Environment.IsDevelopment())
 app.UseAuthorization();
 
 app.MapControllers();
+
+var databaseInitializer = app.Services.GetRequiredService<DatabaseInitializer>();
+await databaseInitializer.InitializeAsync();
 
 app.Run();

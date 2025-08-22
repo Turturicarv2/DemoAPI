@@ -65,12 +65,13 @@ namespace DemoAPI.Controllers
         /// <summary>
         /// Add a person to the list of persons
         /// </summary>
-        /// <param name="person">person info</param>
+        /// <param name="FirstName">first name of person</param>
+        /// <param name="LastName">last name of person</param>
         // POST api/<PersonController>
         [HttpPost]
-        public async Task<IResult> PostPerson(PersonModel person)
+        public async Task<IResult> PostPerson(string FirstName, string LastName)
         {
-            await _personService.AddPersonAsync(person.FirstName, person.LastName);
+            await _personService.AddPersonAsync(FirstName, LastName);
             return Results.Ok();
         }
 

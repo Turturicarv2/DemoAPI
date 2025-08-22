@@ -13,7 +13,8 @@
           "Swashbuckle.AspNetCore": "6.6.2",
           "System.ServiceModel.Http": "8.1.2",
           "System.ServiceModel.NetTcp": "8.1.2",
-          "System.ServiceModel.Primitives": "8.1.2"
+          "System.ServiceModel.Primitives": "8.1.2",
+          "dbup-sqlserver": "6.0.0"
         },
         "runtime": {
           "DemoAPI.dll": {}
@@ -51,6 +52,29 @@
           "lib/net8.0/Dapper.dll": {
             "assemblyVersion": "2.0.0.0",
             "fileVersion": "2.1.66.48463"
+          }
+        }
+      },
+      "dbup-core/6.0.3": {
+        "dependencies": {
+          "Microsoft.Extensions.Logging.Abstractions": "8.0.3"
+        },
+        "runtime": {
+          "lib/netstandard2.0/dbup-core.dll": {
+            "assemblyVersion": "6.0.3.0",
+            "fileVersion": "6.0.3.0"
+          }
+        }
+      },
+      "dbup-sqlserver/6.0.0": {
+        "dependencies": {
+          "Microsoft.Data.SqlClient": "6.1.1",
+          "dbup-core": "6.0.3"
+        },
+        "runtime": {
+          "lib/netstandard2.0/dbup-sqlserver.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.0.0"
           }
         }
       },
@@ -785,6 +809,20 @@
       "sha512": "sha512-/q77jUgDOS+bzkmk3Vy9SiWMaetTw+NOoPAV0xPBsGVAyljd5S6P+4RUW7R3ZUGGr9lDRyPKgAMj2UAOwvqZYw==",
       "path": "dapper/2.1.66",
       "hashPath": "dapper.2.1.66.nupkg.sha512"
+    },
+    "dbup-core/6.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-iGDG7mv93ePpZq4lttfr4duj1A/WsNI9HQG8241ROoWdwyGT6fUQtK0U2YOyi8aIebhRcgqba87Bcomjh4lFRw==",
+      "path": "dbup-core/6.0.3",
+      "hashPath": "dbup-core.6.0.3.nupkg.sha512"
+    },
+    "dbup-sqlserver/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-62CDuGfFqNHBIluFxSIJaW8MDukjWI3WhMCyuDHNMvZxtsVlX6zPq30z7fC0VP6Id2ve3tHLsVhMM3t25QsEhQ==",
+      "path": "dbup-sqlserver/6.0.0",
+      "hashPath": "dbup-sqlserver.6.0.0.nupkg.sha512"
     },
     "FluentValidation/11.11.0": {
       "type": "package",
