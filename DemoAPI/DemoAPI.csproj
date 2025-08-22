@@ -14,6 +14,18 @@
     <NoWarn>1701;1702;1591</NoWarn>
   </PropertyGroup>
   <ItemGroup>
+    <None Remove="Database\Scripts\003_EmailMigration_Down.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Database\Scripts\004_EmailMigration_Up.sql" />
+    <Compile Include="Database\Scripts\005_EmailMigration_Down.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Database\Scripts\002_EmailMigration_Up.sql" />
+    <EmbeddedResource Include="Database\Scripts\003_EmailMigration_Down.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="dbup-sqlserver" Version="6.0.0" />
     <PackageReference Include="FluentValidation.AspNetCore" Version="11.3.1" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
   </ItemGroup>

@@ -26,7 +26,6 @@ D:\danielp\Projects\DemoAPI\DemoAPI\obj\Debug\net8.0\staticwebassets.build.json
 D:\danielp\Projects\DemoAPI\DemoAPI\obj\Debug\net8.0\staticwebassets.build.json.cache
 D:\danielp\Projects\DemoAPI\DemoAPI\obj\Debug\net8.0\staticwebassets.development.json
 D:\danielp\Projects\DemoAPI\DemoAPI\obj\Debug\net8.0\staticwebassets.build.endpoints.json
-D:\danielp\Projects\DemoAPI\DemoAPI\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 D:\danielp\Projects\DemoAPI\DemoAPI\obj\Debug\net8.0\DemoAPI.csproj.Up2Date
 D:\danielp\Projects\DemoAPI\DemoAPI\obj\Debug\net8.0\DemoAPI.dll
 D:\danielp\Projects\DemoAPI\DemoAPI\obj\Debug\net8.0\refint\DemoAPI.dll
@@ -150,3 +149,6 @@ D:\danielp\Projects\DemoAPI\DemoAPI\bin\Debug\net8.0\zh-Hans\System.ServiceModel
 D:\danielp\Projects\DemoAPI\DemoAPI\bin\Debug\net8.0\zh-Hant\System.ServiceModel.NetTcp.resources.dll
 D:\danielp\Projects\DemoAPI\DemoAPI\bin\Debug\net8.0\Connected Services\DemoServiceReference\ConnectedService.json
 D:\danielp\Projects\DemoAPI\DemoAPI\obj\Debug\net8.0\DemoAPI.sourcelink.json
+D:\danielp\Projects\DemoAPI\DemoAPI\bin\Debug\net8.0\dbup-core.dll
+D:\danielp\Projects\DemoAPI\DemoAPI\bin\Debug\net8.0\dbup-sqlserver.dll
+D:\danielp\Projects\DemoAPI\DemoAPI\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

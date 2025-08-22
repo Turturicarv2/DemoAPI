@@ -52,6 +52,31 @@
           }
         }
       },
+      "dbup-core/6.0.3": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Logging.Abstractions": "8.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/dbup-core.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/dbup-core.dll": {}
+        }
+      },
+      "dbup-sqlserver/6.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Data.SqlClient": "5.2.2",
+          "dbup-core": "6.0.3"
+        },
+        "compile": {
+          "lib/netstandard2.0/dbup-sqlserver.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/dbup-sqlserver.dll": {}
+        }
+      },
       "FluentValidation/11.11.0": {
         "type": "package",
         "compile": {
@@ -1121,6 +1146,33 @@
         "lib/netstandard2.0/Dapper.dll",
         "lib/netstandard2.0/Dapper.xml",
         "readme.md"
+      ]
+    },
+    "dbup-core/6.0.3": {
+      "sha512": "iGDG7mv93ePpZq4lttfr4duj1A/WsNI9HQG8241ROoWdwyGT6fUQtK0U2YOyi8aIebhRcgqba87Bcomjh4lFRw==",
+      "type": "package",
+      "path": "dbup-core/6.0.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "dbup-core.6.0.3.nupkg.sha512",
+        "dbup-core.nuspec",
+        "dbup-icon.png",
+        "lib/netstandard2.0/dbup-core.dll"
+      ]
+    },
+    "dbup-sqlserver/6.0.0": {
+      "sha512": "62CDuGfFqNHBIluFxSIJaW8MDukjWI3WhMCyuDHNMvZxtsVlX6zPq30z7fC0VP6Id2ve3tHLsVhMM3t25QsEhQ==",
+      "type": "package",
+      "path": "dbup-sqlserver/6.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "dbup-icon.png",
+        "dbup-sqlserver.6.0.0.nupkg.sha512",
+        "dbup-sqlserver.nuspec",
+        "lib/netstandard2.0/dbup-sqlserver.dll"
       ]
     },
     "FluentValidation/11.11.0": {
@@ -2741,7 +2793,8 @@
       "Swashbuckle.AspNetCore >= 6.6.2",
       "System.ServiceModel.Http >= 8.*",
       "System.ServiceModel.NetTcp >= 8.*",
-      "System.ServiceModel.Primitives >= 8.*"
+      "System.ServiceModel.Primitives >= 8.*",
+      "dbup-sqlserver >= 6.0.0"
     ]
   },
   "packageFolders": {
@@ -2817,6 +2870,10 @@
           "System.ServiceModel.Primitives": {
             "target": "Package",
             "version": "[8.*, )"
+          },
+          "dbup-sqlserver": {
+            "target": "Package",
+            "version": "[6.0.0, )"
           }
         },
         "imports": [

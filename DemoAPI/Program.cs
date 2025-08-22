@@ -1,5 +1,6 @@
 using DataAccess.DbAccess;
 using DataAccess.UnitOfWork;
+using DemoAPI.Database;
 using DemoAPI.Services;
 using DemoAPI.Validators;
 using FluentValidation;
@@ -15,6 +16,7 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 
 // injecting dependencies
+builder.Services.AddSingleton<DatabaseInitializer>();
 builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
 builder.Services.AddSingleton<ISqlDataAccess, SqlDataAccess>();
 builder.Services.AddSingleton<IPersonData, PersonData>();
@@ -50,5 +52,8 @@ if (app.Environment.IsDevelopment())
 app.UseAuthorization();
 
 app.MapControllers();
+
+var databaseInitializer = app.Services.GetRequiredService<DatabaseInitializer>();
+await databaseInitializer.InitializeAsync();
 
 app.Run();

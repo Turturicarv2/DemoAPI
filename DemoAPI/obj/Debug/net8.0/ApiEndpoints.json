@@ -70,9 +70,14 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "person",
-        "Type": "DataAccess.Models.PersonModel",
-        "IsRequired": true
+        "Name": "FirstName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "LastName",
+        "Type": "System.String",
+        "IsRequired": false
       }
     ],
     "ReturnTypes": []

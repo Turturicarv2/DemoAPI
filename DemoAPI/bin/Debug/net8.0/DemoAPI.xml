@@ -28,11 +28,12 @@
             </summary>
             <returns>list of strings</returns>
         </member>
-        <member name="M:DemoAPI.Controllers.PersonController.PostPerson(DataAccess.Models.PersonModel)">
+        <member name="M:DemoAPI.Controllers.PersonController.PostPerson(System.String,System.String)">
             <summary>
             Add a person to the list of persons
             </summary>
-            <param name="person">person info</param>
+            <param name="FirstName">first name of person</param>
+            <param name="LastName">last name of person</param>
         </member>
         <member name="M:DemoAPI.Controllers.PersonController.UpdatePerson(DataAccess.Models.PersonModel)">
             <summary>

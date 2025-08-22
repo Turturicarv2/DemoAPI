@@ -62,26 +62,24 @@
           "Person"
         ],
         "summary": "Add a person to the list of persons",
-        "requestBody": {
-          "description": "person info",
-          "content": {
-            "application/json": {
-              "schema": {
-                "$ref": "#/components/schemas/PersonModel"
-              }
-            },
-            "text/json": {
-              "schema": {
-                "$ref": "#/components/schemas/PersonModel"
-              }
-            },
-            "application/*+json": {
-              "schema": {
-                "$ref": "#/components/schemas/PersonModel"
-              }
+        "parameters": [
+          {
+            "name": "FirstName",
+            "in": "query",
+            "description": "first name of person",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "LastName",
+            "in": "query",
+            "description": "last name of person",
+            "schema": {
+              "type": "string"
             }
           }
-        },
+        ],
         "responses": {
           "200": {
             "description": "OK"

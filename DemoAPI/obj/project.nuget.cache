@@ -1,12 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "AqnAMPwGNUA=",
+  "dgSpecHash": "WJT0aTe8fSg=",
   "success": true,
   "projectFilePath": "D:\\danielp\\Projects\\DemoAPI\\DemoAPI\\DemoAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\danielp\\.nuget\\packages\\azure.core\\1.47.1\\azure.core.1.47.1.nupkg.sha512",
     "C:\\Users\\danielp\\.nuget\\packages\\azure.identity\\1.14.2\\azure.identity.1.14.2.nupkg.sha512",
     "C:\\Users\\danielp\\.nuget\\packages\\dapper\\2.1.66\\dapper.2.1.66.nupkg.sha512",
+    "C:\\Users\\danielp\\.nuget\\packages\\dbup-core\\6.0.3\\dbup-core.6.0.3.nupkg.sha512",
+    "C:\\Users\\danielp\\.nuget\\packages\\dbup-sqlserver\\6.0.0\\dbup-sqlserver.6.0.0.nupkg.sha512",
     "C:\\Users\\danielp\\.nuget\\packages\\fluentvalidation\\11.11.0\\fluentvalidation.11.11.0.nupkg.sha512",
     "C:\\Users\\danielp\\.nuget\\packages\\fluentvalidation.aspnetcore\\11.3.1\\fluentvalidation.aspnetcore.11.3.1.nupkg.sha512",
     "C:\\Users\\danielp\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.11.0\\fluentvalidation.dependencyinjectionextensions.11.11.0.nupkg.sha512",
